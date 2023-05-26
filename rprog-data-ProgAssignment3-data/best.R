@@ -1,5 +1,4 @@
 library(dplyr)
-library(ggplot2)
 
 best <- function(state, outcome) {
   library(dplyr)
