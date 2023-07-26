@@ -22,7 +22,7 @@ best <- function(state, outcome) {
   if (outcome == 'heart failure') {
     outcome_data %>% filter(State == state) %>% 
       arrange(as.numeric
-        (Hospital.30.Day.Death..Mortality..Rates.from.Heart.Failure)) %>%
+        (h)) %>%
       slice_head(n = 1) %>% select(Hospital.Name) %>% print()
   }
   
