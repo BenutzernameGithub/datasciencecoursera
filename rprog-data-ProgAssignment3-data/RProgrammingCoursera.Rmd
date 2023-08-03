@@ -1,0 +1,17 @@
+---
+title: "RProgramming_Coursera"
+output: html_document
+date: "2023-08-03"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE)
+```
+
+## R Programming Coursera
+
+The week 4 assignments have been solved by using the dplyr package. 
+To avoid complexity the rank variable needs to be numeric. For character values
+another condition would need to be built in. I tried to comment as much as possible. 
+
+
